@@ -1,0 +1,51 @@
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 99vh;
+}
+.flex-item{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 1px;
+}
+.city{
+    display: inline;
+    font-size: 20px;
+}
+.time{
+    float: right;
+    font-size: 20px;
+}
+.temperature{
+    text-align: center;padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.sub_container{
+    display: flex;
+}
+.w_detail{
+    width: 50%;
+}
+.w_detail p{
+    font: 25px;
+}
+.w_logo{
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.w_icon{
+    font-size: 17px;
+    margin-right: 10px;
+}
+.w_logo{
+    font-size: 80px;
+    color: black;
+}
